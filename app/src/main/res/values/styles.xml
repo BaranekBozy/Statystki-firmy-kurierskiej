@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.Design.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/roz</item>
+        <item name="colorPrimaryDark">@color/nieb</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColor">@color/nieb</item>
+    </style>
+    <style name="SpinnerTheme" >
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:textColorTertiary">@color/white</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/white</item>
+    </style>
+    <style name="ToastTheme">
+        <item name="colorBackground">@color/nieb</item>
+        <item name="textColor">@color/white</item>
+    </style>
+
+</resources>

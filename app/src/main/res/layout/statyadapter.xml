@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="66.6"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv_id"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="33.3"
+            android:gravity="center"
+            android:text="TextView1"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_data"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="33.3"
+            android:gravity="center"
+            android:text="TextView1"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="33.3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_ilosc_DOR"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="TextView2" />
+
+        <TextView
+            android:id="@+id/tv_przejechane_km"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="TextView2" />
+
+        <TextView
+            android:id="@+id/tv_paliwo_objetosc"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="TextView2" />
+
+        <TextView
+            android:id="@+id/tv_paliwo_koszt"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="TextView2" />
+
+        <TextView
+            android:id="@+id/tv_ilosc_odb"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="TextView2" />
+
+        <TextView
+            android:id="@+id/tv_ilosc_dni_odb"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="TextView2" />
+
+        <TextView
+            android:id="@+id/tv_kary_opis"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="TextView2" />
+
+        <TextView
+            android:id="@+id/tv_kary_koszt"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="TextView2" />
+
+        <TextView
+            android:id="@+id/tv_wynagrodzenie_z_trasy_DOR"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="TextView2" />
+
+        <TextView
+            android:id="@+id/tv_wynagrodzenie_z_trasy_ODB"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="TextView2" />
+
+        <TextView
+            android:id="@+id/tv_wynagrodzenie_kuriera"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="TextView2" />
+
+        <TextView
+            android:id="@+id/tv_zysk_z_trasy"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="TextView2" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

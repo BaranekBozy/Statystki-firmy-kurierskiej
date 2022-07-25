@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SmartData</string>
+    <string name="nav_dodaj">Wprowadź dane</string>
+    <string name="nav_staty">Statystyki</string>
+    <string name="nav_zasoby">Zasoby</string>
+    <string name="nav_dodatkowe">Przychody/rozchody</string>
+    <string-array name="statystyki_array">
+        <item>Dane</item>
+        <item>Podsumowanie miesiąca</item>
+        <item>Dodatkowe przychody</item>
+        <item>Dodatkowe koszta</item>
+        <item>Samochody</item>
+        <item>Kurierzy</item>
+        <item>Statystyki trasy</item>
+    </string-array>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/staty_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/animation_2"
+    android:visibility="visible">
+
+    <EditText
+        android:id="@+id/ktory_kurier"
+        android:layout_width="137dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/nieb"
+        android:hint="Numer ID"
+        android:inputType="number"
+        android:textColor="@color/nieb"
+        android:textColorHint="#665528C8" />
+
+    <EditText
+        android:id="@+id/data_od"
+        android:layout_width="137dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/nieb"
+        android:hint="Od"
+        android:inputType="date"
+        android:textColor="@color/nieb"
+        android:textColorHint="#665528C8" />
+
+    <EditText
+        android:id="@+id/data_do"
+        android:layout_width="137dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toEndOf="@+id/data_od"
+        android:backgroundTint="@color/nieb"
+        android:hint="Do"
+        android:inputType="date"
+        android:textColor="@color/nieb"
+        android:textColorHint="#665528C8" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@+id/data_od"
+        android:layout_centerInParent="true"
+        android:background="@drawable/custom_button"
+        android:text="Wyświetl dane"
+        android:theme="@style/SpinnerTheme" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginBottom="58dp"
+        android:divider="@color/nieb"
+        android:dividerHeight="1px"
+        android:visibility="visible" />
+
+</RelativeLayout>

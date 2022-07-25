@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_dodaj"
+        android:icon="@drawable/ic_edit_black_24dp"
+        android:title="@string/nav_dodaj"/>
+    <item
+        android:id="@+id/nav_staty"
+        android:icon="@drawable/ic_baseline_bar_chart_24"
+        android:title="@string/nav_staty"/>
+    <item
+        android:id="@+id/nav_zasoby"
+        android:icon="@drawable/ic_people_black_24dp"
+        android:title="@string/nav_zasoby"/>
+    <item
+        android:id="@+id/nav_dodatkowe"
+        android:icon="@drawable/ic_swap_horiz_black_24dp"
+        android:title="@string/nav_dodatkowe"/>
+</menu>

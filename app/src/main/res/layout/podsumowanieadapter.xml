@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="33.3"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_sum_zysk_z_trasy"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="TextView2" />
+
+        <TextView
+            android:id="@+id/tv_sum_paliwo_objetosc"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="TextView2" />
+        <TextView
+            android:id="@+id/tv_sum_paliwo_koszt"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="TextView2" />
+        <TextView
+            android:id="@+id/tv_sum_ilosc_dor"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="TextView2" />
+        <TextView
+            android:id="@+id/tv_sum_ilosc_odb"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="TextView2" />
+        <TextView
+            android:id="@+id/tv_sum_kary_koszt"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="TextView2" />
+
+        <TextView
+            android:id="@+id/tv_sum_przejechane_km"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="TextView2" />
+        <TextView
+            android:id="@+id/tv_round_srednie_spalanie"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="TextView2" />
+        <TextView
+            android:id="@+id/tv_sum_dodatkowe_koszta"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="TextView2" />
+        <TextView
+            android:id="@+id/tv_sum_dodatkowe_przychody"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="TextView2" />
+
+        <TextView
+            android:id="@+id/tv_sum_wynagrodzenia_kurierow"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="TextView2" />
+        <TextView
+            android:id="@+id/tv_sum_koszt_auta"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="TextView2" />
+        <TextView
+            android:id="@+id/tv_sum_wynagrodzenie_z_trasy_DOR"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="TextView2" />
+        <TextView
+            android:id="@+id/tv_sum_wynagrodzenie_z_trasy_ODB"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="TextView2" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
